@@ -5,6 +5,7 @@ class Program
 {
     static void Main()
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Exception? exception = null;
         int speedInput;
         string prompt = $"Select speed [1], [2] (default), or [3]: ";
